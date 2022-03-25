@@ -44,7 +44,7 @@ li a:hover {
   text-decoration-thickness: 3px;
 }
 
-li {
+.navitem {
   display: inline;
   margin: 80px;
   top: 10px;
@@ -86,7 +86,7 @@ h2 {
 h3 {
     position: absolute;
     text-align: center;
-    top: 35%;
+    top: 30%;
     left: 70%;
     color:#ffef96;
     opacity: 0.9;
@@ -109,7 +109,7 @@ h3 {
 }
 
 #about-info {
-    grid-area: 9 / 3 / 12 / 9;
+    grid-area: 10 / 3 / 12 / 9;
     z-index: 5;
     text-align: center;
     color:#ffef96;
@@ -123,4 +123,17 @@ h3 {
     color:#ffef96;
     font-size: 1.5rem;
     line-height: 40px;
+}
+
+.social-media-links {
+  position: absolute;
+  z-index:5;
+  list-style: circle;
+  top:40%;
+  left:75%;
+  color:#ffef96;
+}
+
+.social-media-links li {
+  margin: 40px 0;
 }
