@@ -109,7 +109,7 @@ h3 {
 }
 
 #about-info {
-    grid-area: 10 / 3 / 12 / 9;
+    grid-area: 10 / 2 / 12 / 11;
     z-index: 5;
     text-align: center;
     color:#ffef96;
